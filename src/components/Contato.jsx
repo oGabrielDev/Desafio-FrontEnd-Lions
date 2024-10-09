@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import '../Styles/Form.css';
 
 export default function Contato() {
@@ -50,6 +51,7 @@ export default function Contato() {
           </button>
         </div>
       </form>
+      <Footer />
     </>
   );
 }
