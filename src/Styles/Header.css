@@ -1,0 +1,22 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f00;
+    border-bottom: 2px solid black;
+}
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+.link {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px;
+    color: white;
+}
+.link:hover {
+    color: black;
+}
