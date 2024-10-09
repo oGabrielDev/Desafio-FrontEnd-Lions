@@ -9,7 +9,7 @@ export default function Footer() {
       bg-dark
       footer
       d-flex
-      align-items-end
+      align-content-end
     "
     >
       <img
