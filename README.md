@@ -2,7 +2,6 @@
 Desafio Lions
 
 Descrição do Projeto
-Uma breve descrição sobre o projeto
 
 > Esse projeto foi desenvolvido para um desafio de front end da empresa lions seminovos, foi um desafio interessante de se desenvolver, me formei em um curso de desenvolvimento web em março/2024, desde então não estava tendo contato com programação, foi um muito bom por tudo que eu aprendi em prática, eu estava me organizando todos os dias das 08:00 as 18:00, eu separei o codigo por pastas cada um pasta tem sua responsabilidade.
 ---
