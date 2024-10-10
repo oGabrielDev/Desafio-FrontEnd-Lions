@@ -11,7 +11,7 @@ Uma breve descrição sobre o projeto
 
 Antes de rodar o projeto, você precisa ter instalados:
 
--   **Node.js** (versão X.X.X ou superior)
+-   **Node.js** (versão 10 ou superior)
 -   **npm** ou **yarn** (gerenciador de pacotes)
 
 Verifique se você tem o Node.js instalado executando:
@@ -37,7 +37,7 @@ Siga as instruções abaixo para configurar e rodar o projeto localmente.
 2. **Navegue até o diretório do projeto**:
 
     ```bash
-    cd nome-do-projeto
+    cd lions
     ```
 
 3. **Instale as dependências**:
