@@ -115,6 +115,7 @@ Lions/
 
 -   **React.js**: Biblioteca JavaScript para construir interfaces de usuário.
 -   **CSS3**: Para estilização dos componentes.
+-   **Bootstrap**: Para estilização do componenetes.
 -   **JavaScript ES6**: Funções e sintaxe modernas de JavaScript.
 
 ---
