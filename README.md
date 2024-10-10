@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+---
+Desafio Lions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Descrição do Projeto
+Uma breve descrição sobre o projeto
 
-## Available Scripts
+> Esse projeto foi desenvolvido para um desafio de front end da empresa lions seminovos, foi um desafio interessante de se desenvolver, me formei em um curso de desenvolvimento web em março/2024, desde então não estava tendo contato com programação, foi um muito bom por tudo que eu aprendi em prática, eu estava me organizando todos os dias das 08:00 as 18:00, eu separei o codigo por pastas cada um pasta tem sua responsabilidade.
+---
 
-In the project directory, you can run:
+### Requisitos
 
-### `npm start`
+Antes de rodar o projeto, você precisa ter instalados:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   **Node.js** (versão X.X.X ou superior)
+-   **npm** ou **yarn** (gerenciador de pacotes)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Verifique se você tem o Node.js instalado executando:
 
-### `npm test`
+```bash
+node -v
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se não tiver, instale o Node.js [aqui](https://nodejs.org/).
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Siga as instruções abaixo para configurar e rodar o projeto localmente.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone o repositório** para sua máquina local:
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/usuario/repo.git
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Navegue até o diretório do projeto**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    cd nome-do-projeto
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Instale as dependências**:
+   Se estiver usando **npm**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm install
+    ```
 
-## Learn More
+    Ou, se estiver usando **yarn**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    yarn install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### Executando o Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Após instalar todas as dependências, execute o seguinte comando para iniciar o projeto em ambiente de desenvolvimento:
 
-### Analyzing the Bundle Size
+Se estiver usando **npm**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+Ou, se estiver usando **yarn**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+yarn start
+```
 
-### Advanced Configuration
+O projeto será iniciado e estará disponível em `http://localhost:3000` no navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### Estrutura do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Aqui está uma visão geral dos principais arquivos e diretórios no projeto:
 
-### `npm run build` fails to minify
+```plaintext
+Lions/
+│
+├── public/                 # Arquivos públicos como index.html
+├── src/                    # Contém os arquivos fonte (componentes React, CSS, etc.)
+│   ├── Components          # Pasta com todos o componentes que usei
+│   ├── image               # Pasta com as imagens
+│   ├── pages               # Pasta com a pagina que criei
+│   ├── Styles              # Pasta com todos os stilos do projeto
+    ├── eslintrc.json       # Lint para deixar o codigo legivel
+    ├── App.css             # Arquivo de stilo zerando algumas config inicias.
+    ├── App.js              # Componente principal da aplicação
+    ├── index.js            # Ponto de entrada da aplicação
+├── package.json            # Lista de dependências e scripts
+└── README.md               # Instruções do projeto
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### Dicas e Resolução de Problemas
+
+1. **Erro de versão do Node.js**:
+
+    - Se você receber um erro de versão de Node.js, tente atualizar para uma versão compatível. O projeto pode exigir uma versão mais recente.
+
+2. **Problemas de porta em uso**:
+    - Se `localhost:3000` já estiver ocupado por outro processo, você pode iniciar o projeto em uma porta diferente executando:
+        ```bash
+        PORT=3001 npm start
+        ```
+
+---
+
+### Tecnologias Utilizadas
+
+-   **React.js**: Biblioteca JavaScript para construir interfaces de usuário.
+-   **CSS3**: Para estilização dos componentes.
+-   **JavaScript ES6**: Funções e sintaxe modernas de JavaScript.
+
+---
+
+### Autor
+
+> **Gabriel Thiago**  
+> [LinkedIn](https://linkedin.com/in/gthiago) | [GitHub](https://github.com/oGabrielDev)
+
+---
