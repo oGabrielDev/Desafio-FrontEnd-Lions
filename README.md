@@ -31,7 +31,7 @@ Siga as instruções abaixo para configurar e rodar o projeto localmente.
 1. **Clone o repositório** para sua máquina local:
 
     ```bash
-    git clone https://github.com/usuario/repo.git
+    git@github.com:oGabrielDev/Desafio-FrontEnd-Lions.git
     ```
 
 2. **Navegue até o diretório do projeto**:
